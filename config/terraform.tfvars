@@ -1,0 +1,13 @@
+instance_count = 2
+instance_type  = "t2.micro"
+ebs_optimized  = true
+ec2_size       = 8
+name           = "DEMO"
+port           = 80
+protocol       = "HTTP"
+instance_class = "db.t2.micro"
+db_storage     = 50
+engine         = "MySQL"
+engine_version = "8.0.30"
+region         = "ap-south-1"
+vpc_name       = "Mumbai-VPC"
